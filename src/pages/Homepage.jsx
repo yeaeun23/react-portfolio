@@ -1,14 +1,13 @@
 import { AppContext } from "../App.jsx";
 import { useContext, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-
 import ToggleTheme from "../components/ToggleTheme.jsx";
-
-import Hero from "../components/sections/Hero.jsx";
+import Profile from "../components/sections/Profile.jsx";
 import Projects from "../components/sections/Projects.jsx";
 import Contact from "../components/sections/Contact.jsx";
 import Footer from "../components/sections/Footer.jsx";
-import EducationAndExperience from "../components/sections/EducationAndExperience.jsx";
+import Careers from "../components/sections/Careers.jsx";
+import Careers2 from "../components/sections/Careers2.jsx";
 import Skills from "../components/sections/Skills.jsx";
 
 function Homepage() {
@@ -24,9 +23,10 @@ function Homepage() {
       <div className="xl:w-[1200px] md:mx-auto h-full border-x border-zinc-100 dark:border-zinc-800 bg-white dark:bg-zinc-950">
         <ToggleTheme switchTheme={switchTheme} />
 
-        <Hero />
+        <Profile />
+        <Careers />
+        <Careers2 />
         <Projects />
-				<EducationAndExperience />
         <Skills />
         <Contact />
 

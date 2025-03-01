@@ -1,4 +1,5 @@
 import { CiLink } from "react-icons/ci";
+import { DiGithubBadge } from "react-icons/di";
 
 function Project({ title, description, technologies, link, github }) {
   return (
@@ -15,9 +16,7 @@ function Project({ title, description, technologies, link, github }) {
         ))}
       </div>
       {/* =========== PROJECT TITLE =========== */}
-      <h3 className="font-bold text-lg text-zinc-700 dark:text-zinc-300 mt-4">
-        {title}
-      </h3>
+      <h3 className="font-bold text-lg text-zinc-700 dark:text-zinc-300 mt-4">{title}</h3>
       {/* =========== PROJECT DESCRIPTION =========== */}
       <p className="leading-7 text-zinc-500 dark:text-zinc-300 font-light text-base mt-4">
         {description}
@@ -25,18 +24,20 @@ function Project({ title, description, technologies, link, github }) {
 
       <div className="flex gap-6 text-zinc-600 dark:text-zinc-300 font-medium">
         {/* =========== PROJECT LINK =========== */}
-        <a href={link} className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300">
+        <a
+          href={link}
+          className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300"
+        >
           <CiLink className="text-2xl self-center" />
-          <span className="text-xs self-center">
-            View Project
-          </span>
+          <span className="text-xs self-center">Preview</span>
         </a>
         {/* =========== PROJECT GITHUB =========== */}
-        <a href={github} className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300">
-          <CiLink className="text-2xl self-center" />
-          <span className="text-xs self-center">
-            View Github
-          </span>
+        <a
+          href={github}
+          className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300"
+        >
+          <DiGithubBadge className="text-2xl self-center" />
+          <span className="text-xs self-center">Github</span>
         </a>
       </div>
     </div>

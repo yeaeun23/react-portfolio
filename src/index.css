@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  font-family: "Heebo", sans-serif;
-
+  font-family: "Pretendard Variable", "Pretendard", Arial, "Malgun Gothic", sans-serif;
+  letter-spacing: -0.2px;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
