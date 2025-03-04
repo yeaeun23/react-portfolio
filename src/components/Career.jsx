@@ -21,7 +21,7 @@ function Career({ items }) {
               <div className="grow p-2 pb-8">
                 <h3 className="flex items-center gap-x-2 font-semibold text-zinc-800 dark:text-white">
                   {/* =========== 로고 =========== */}
-                  {item.logo && <img className="w-9 h-9 rounded-full" src={item.logo} alt="Logo" />}
+                  {item.logo && <img className="w-9 h-9 rounded-full" src={item.logo} alt="로고" />}
 
                   {/* =========== 회사명 =========== */}
                   <div className="leading-6">
