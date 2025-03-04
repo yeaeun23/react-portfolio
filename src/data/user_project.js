@@ -16,11 +16,20 @@ const project = {
       link: "https://yeaeun23.github.io/kakaobank-recruit/",
     },
     {
-      title: "엘리스 아카데미 검색 페이지",
-      period: "2024.09",
-      skills: "ReactJS, TypeScript, Next.js, API",
-      image: "./src/images/project/elice-academy.png",
-      link: "https://yeaeun23.github.io/elice-academy/",
+      title: "온라인 학습 게시판 '클래스보드'",
+      period: "2023.07 - 2024.10 (1년 4개월) · 천재교육",
+      description: "- 웹소켓으로 실시간 화면 동기화",
+      skills: "ReactJS, SCSS, TypeScript, Recoil, MariaDB, AWS",
+      image: "./src/images/project/clboard.jpg",
+      link: "https://www.clboard.co.kr/",
+    },
+    {
+      title: "영업 관리 시스템 '더게이지'",
+      period: "2022.10 - 2023.03 (6개월) · 외주",
+      description: "엑셀로 관리하던 양식을 ",
+      skills: "ReactJS, SCSS, Bootstrap, JavaScript, Node.js, MySQL, AWS, Cafe24",
+      image: "./src/images/project/sales-management.png",
+      link: "https://github.com/yeaeun23/sales-management/",
     },
     {
       title: "Forkio",
@@ -40,26 +49,6 @@ const project = {
 
   // ============ 프로젝트 2 ============
   projects2: [
-    {
-      title: "온라인 학습 게시판 '클래스보드'",
-      period: "2023.07 - 2024.10 (1년 4개월) · 천재교육",
-      description: "- 웹소켓으로 실시간 화면 동기화",
-      skills: "ReactJS, SCSS, TypeScript, Recoil, MariaDB, AWS",
-      image: "./src/images/project/clboard.jpg",
-      link: "https://www.clboard.co.kr/",
-    },
-    {
-      title: "영업 관리 시스템 '더게이지'",
-      period: "2022.10 - 2023.03 (6개월) · 외주",
-      description: "엑셀로 관리하던 양식을 ",
-      skills: "ReactJS, SCSS, Bootstrap, JavaScript, Node.js, MySQL, AWS, Cafe24",
-      image: "./src/images/project/sales-management.png",
-      link: "https://github.com/yeaeun23/sales-management/",
-    },
-  ],
-
-  // ============ 프로젝트 3 ============
-  projects3: [
     {
       title: "움직이는 404 에러 페이지",
       period: "2024.11 · 패스트캠퍼스",
@@ -104,8 +93,8 @@ const project = {
     },
   ],
 
-  // ============ 프로젝트 4 ============
-  projects4: [
+  // ============ 프로젝트 3 ============
+  projects3: [
     {
       title: "신문 지면 제작 모니터링 시스템",
       period: "2021.08 · 서울신문사",
@@ -156,8 +145,8 @@ const project = {
     },
   ],
 
-  // ============ 프로젝트 5 ============
-  projects5: [
+  // ============ 프로젝트 4 ============
+  projects4: [
     {
       title: "사진 편집 및 전송 프로그램",
       period: "2021.01 - 2021.04, 2022.12 - 2023.01 (6개월) · 서울신문사 · 포상",

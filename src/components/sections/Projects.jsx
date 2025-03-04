@@ -3,11 +3,10 @@ import Project from "../Project.jsx";
 
 function Projects() {
   const categories = {
-    "퍼블리싱 · 클론 코딩": user_project.projects,
-    "리액트(ReactJS) · AWS": user_project.projects2,
-    "CSS 애니메이션 · Canvas": user_project.projects3,
-    "C# · ASP.NET": user_project.projects4,
-    "C# · 윈도우 응용 프로그램": user_project.projects5,
+    "퍼블리싱 · 리액트(ReactJS)": user_project.projects,
+    "CSS 애니메이션 · Canvas": user_project.projects2,
+    "C# · ASP.NET": user_project.projects3,
+    "C# · 윈도우 응용 프로그램": user_project.projects4,
   };
 
   return (
