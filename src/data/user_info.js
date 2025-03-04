@@ -5,7 +5,7 @@ const info = {
     subtitle: "프론트엔드 개발자 & 퍼블리셔",
     description:
       "UI/UX에 가치를 두고 사용자 경험을 중요시합니다.\n새로운 기술에 대한 지속적인 학습을 추구합니다.",
-    photo: "./src/images/photo.jpeg",
+    photo: "./images/photo.jpeg",
     tooltip: "반가워요!👋",
   },
 
@@ -15,13 +15,13 @@ const info = {
       title: "건국대학교",
       subtitle: "인터넷·미디어공학과 / 학사 졸업",
       period: "2013.03 - 2017.02 (4년)",
-      logo: "./src/images/logo/konkuk.jpg",
+      logo: "./images/logo/konkuk.jpg",
     },
     {
       title: "오금고등학교",
       subtitle: "이과 / 졸업",
       period: "2010.03 - 2013.02 (3년)",
-      logo: "./src/images/logo/ogeum.webp",
+      logo: "./images/logo/ogeum.webp",
     },
   ],
 
@@ -64,7 +64,7 @@ const info = {
       title: "(주)천재교육",
       subtitle: "정규직 / 서비스개발팀 / 팀원 · 대리급",
       period: "2023.05.15 - 2024.10.22 (1년 6개월)",
-      logo: "./src/images/logo/chunjae.jpeg",
+      logo: "./images/logo/chunjae.jpeg",
       descriptions: [
         "학급 온라인 게시판 '클래스보드' 프론트엔드 개발",
         "천재IT교육센터에서 PM 직무 교육생 대상으로 '클래스보드 소개' 강의",
@@ -74,7 +74,7 @@ const info = {
       title: "(주)서울신문사",
       subtitle: "정규직 / IT개발팀 / 팀원 · 대리",
       period: "2018.03.05 - 2023.05.14 (5년 3개월)",
-      logo: "./src/images/logo/seoul.jpeg",
+      logo: "./images/logo/seoul.jpeg",
       descriptions: [
         "신문 제작 관련 윈도우 응용 프로그램 개발",
         "인사·복지·채용 웹서비스 개발",
@@ -86,14 +86,14 @@ const info = {
       title: "(주)엔테크서비스",
       subtitle: "인턴 / UI개발팀",
       period: "2017.07.03 - 2017.08.31 (2개월)",
-      logo: "./src/images/logo/nts.jpeg",
+      logo: "./images/logo/nts.jpeg",
       descriptions: ["네이버 서비스 UI 개발"],
     },
     {
       title: "(주)다우기술",
       subtitle: "인턴 / BA개발팀",
       period: "2016.09.01 - 2017.02.28 (6개월)",
-      logo: "./src/images/logo/daou.jpeg",
+      logo: "./images/logo/daou.jpeg",
       descriptions: ["그룹웨어(다우오피스) 전자결재 양식 UI 개발"],
     },
   ],
