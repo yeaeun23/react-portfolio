@@ -7,7 +7,6 @@ import Projects from "../components/sections/Projects.jsx";
 import Contact from "../components/sections/Contact.jsx";
 import Footer from "../components/sections/Footer.jsx";
 import Careers from "../components/sections/Careers.jsx";
-import Careers2 from "../components/sections/Careers2.jsx";
 import Skills from "../components/sections/Skills.jsx";
 
 function Homepage() {
@@ -25,7 +24,6 @@ function Homepage() {
 
         <Profile />
         <Careers />
-        <Careers2 />
         <Projects />
         <Skills />
         <Contact />

@@ -3,10 +3,12 @@ import user_info from "../../data/user_info.js";
 import { FaLandmark } from "react-icons/fa";
 import { FaBuildingUser } from "react-icons/fa6";
 import { PiCertificateFill } from "react-icons/pi";
+import { FaAward } from "react-icons/fa";
 
 function Careers() {
   return (
-    <section id="careers" className="mx-4 lg:mx-20 flex flex-col md:flex-row gap-4 md:gap-2">
+    <section id="careers" className="mx-4 lg:mx-20 flex flex-col md:flex-row gap-6 md:gap-2">
+      {/* =========== 왼쪽 영역 =========== */}
       <div className="w-full md:w-[80%]">
         {/* =========== 학력 =========== */}
         <h4 className="text-xl dark:text-white mb-4 font-bold flex gap-2 items-center">
@@ -15,12 +17,19 @@ function Careers() {
         </h4>
         <Career items={user_info.schools} />
 
+        {/* =========== 교육 =========== */}
+        <h4 className="text-xl dark:text-white mt-6 mb-4 font-bold flex gap-2 items-center">
+          <PiCertificateFill className="text-2xl text-red-800 dark:text-red-500" />
+          교육
+        </h4>
+        <Career items={user_info.educations} />
+
         {/* =========== 자격증 =========== */}
-        <h4 className="text-xl dark:text-white mt-6 font-bold flex gap-2 items-center">
+        <h4 className="text-xl dark:text-white mt-6 mb-4 font-bold flex gap-2 items-center">
           <PiCertificateFill className="text-2xl text-red-800 dark:text-red-500" />
           자격증
         </h4>
-        <div data-hs-carousel='{"loadingClasses": "opacity-0"}' className="relative mt-4">
+        <div data-hs-carousel='{"loadingClasses": "opacity-0"}' className="relative">
           <div className="hs-carousel relative overflow-hidden w-full h-48 bg-white dark:bg-gray-800 rounded-lg">
             <div className="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
               {user_info.certificates.map((cert, index) => {
@@ -31,7 +40,7 @@ function Careers() {
                         <div className="hs-tooltip-toggle text-center text-gray-800 dark:text-white hover:text-red-800 hover:dark:text-red-500">
                           <p className="transition duration-700 px-6 font-bold">{cert.title}</p>
                           <p className="transition duration-700 px-6 text-sm">{cert.institution}</p>
-                          <p className="transition duration-700 px-6 text-xs mt-3 text-zinc-500">
+                          <p className="transition duration-700 px-6 text-sm mt-3 text-zinc-500">
                             {cert.date}
                           </p>
                         </div>
@@ -42,7 +51,6 @@ function Careers() {
               })}
             </div>
           </div>
-
           {/* =========== 자격증 - 이전 버튼 =========== */}
           <button
             type="button"
@@ -66,7 +74,6 @@ function Careers() {
             </span>
             <span className="sr-only">Previous</span>
           </button>
-
           {/* =========== 자격증 - 다음 버튼 =========== */}
           <button
             type="button"
@@ -90,7 +97,6 @@ function Careers() {
               </svg>
             </span>
           </button>
-
           {/* =========== 자격증 - 페이지 =========== */}
           <div className="hs-carousel-pagination flex justify-center absolute bottom-3 start-0 end-0 space-x-2">
             {user_info.certificates.map((cert, index) => {
@@ -105,6 +111,7 @@ function Careers() {
         </div>
       </div>
 
+      {/* =========== 오른쪽 영역 =========== */}
       <div className="w-full">
         {/* =========== 경력 =========== */}
         <h4 className="text-xl dark:text-white mb-4 font-bold flex gap-2 items-center">
@@ -112,6 +119,13 @@ function Careers() {
           경력 (총 6년 8개월)
         </h4>
         <Career items={user_info.company} />
+
+        {/* =========== 포상 =========== */}
+        <h4 className="text-xl dark:text-white mt-6 mb-4 font-bold flex gap-2 items-center">
+          <FaAward className="text-2xl text-red-800 dark:text-red-500" />
+          포상
+        </h4>
+        <Career items={user_info.awards} />
       </div>
     </section>
   );

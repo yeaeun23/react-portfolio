@@ -1,87 +1,13 @@
 const info = {
-  // ============ MAIN DETAILS ============
-  main: {
+  // ============ 프로필 ============
+  profile: {
     title: "강 예 은",
-    subtitle: "",
-    description: "웹 프론트엔드 개발자 & 퍼블리셔",
-    birth:
+    subtitle: "프론트엔드 개발자 & 퍼블리셔",
+    description:
       "UI/UX에 가치를 두고 사용자 경험을 중요시합니다.\n새로운 기술에 대한 지속적인 학습을 추구합니다.",
-    photo: "../photo.jpeg",
+    photo: "./src/images/photo.jpeg",
+    tooltip: "반가워요!👋",
   },
-
-  // ============ 프로젝트 ============
-  projects: [
-    {
-      title: "404 Error Page",
-      description: "SVG 이미지와 CSS 애니메이션으로 에러 페이지 만들기",
-      skills: "HTML/CSS, JavaScript, SVG",
-      image: "./src/images/project/1-2 404-error-page.gif",
-      link: "https://yeaeun23.github.io/404-error-page/",
-    },
-    {
-      title: "Gooey Effect",
-      description: "Canvas로 구이(gooey) 효과 만들기",
-      skills: "HTML, JavaScript, Canvas",
-      image: "./src/images/project/2-1 gooey-effect.gif",
-      link: "https://yeaeun23.github.io/gooey-effect/",
-    },
-    {
-      title: "Fireworks",
-      description: "Canvas로 불꽃놀이 만들기",
-      skills: "HTML/CSS, JavaScript, Canvas",
-      image: "./src/images/project/2-2 fireworks.gif",
-      link: "https://yeaeun23.github.io/fireworks/",
-    },
-    {
-      title: "Confetti",
-      description: "Canvas로 컨페티 만들기",
-      skills: "HTML/CSS, JavaScript, Canvas",
-      image: "./src/images/project/2-4 confetti-2.gif",
-      link: "https://yeaeun23.github.io/confetti/",
-    },
-    {
-      title: "Mini Game",
-      description: "Canvas로 미니 게임 만들기",
-      skills: "HTML/CSS, JavaScript, Canvas, GSAP",
-      image: "./src/images/project/2-5 mini-game.gif",
-      link: "https://yeaeun23.github.io/mini-game/",
-    },
-    {
-      title: "Rope Physics",
-      description: "Canvas로 끊어지는 밧줄 만들기",
-      skills: "HTML/CSS, JavaScript, Canvas",
-      image: "./src/images/project/2-6 rope-physics.gif",
-      link: "https://yeaeun23.github.io/rope-physics/",
-    },
-    {
-      title: "connect-wave",
-      description: "개발/디자인 100%",
-      skills: "HTML/CSS, JavaScript, jQuery, GSAP",
-      image: "./src/images/project/connect-wave.gif",
-      link: "https://yeaeun23.github.io/connect-wave/",
-    },
-    {
-      title: "World DJ Festival",
-      description: "개발/디자인 100%",
-      skills: "HTML/CSS, JavaScript, jQuery",
-      image: "./src/images/project/wdf.jpg",
-      link: "https://yeaeun23.github.io/wdf/",
-    },
-    {
-      title: "Forkio",
-      description: "개발/디자인 100%",
-      skills: "HTML/CSS, JavaScript, jQuery, 반응형",
-      image: "./src/images/project/forkio.jpg",
-      link: "https://yeaeun23.github.io/forkio/",
-    },
-    {
-      title: "클래스보드",
-      description: "개발/디자인 100%",
-      skills: "ReactJS, TypeScript",
-      image: "./src/images/project/clboard.jpg",
-      link: "https://www.clboard.co.kr/",
-    },
-  ],
 
   // ============ 학력 ============
   schools: [
@@ -105,29 +31,30 @@ const info = {
       title: "인터랙티브 웹 완전 정복",
       subtitle: "패스트캠퍼스",
       period: "2024.11.13 - 2025.01.08 (2개월)",
-      descriptions: ["HTML, CSS, JavaScript, React.js, Matter.js"],
     },
     {
       title: "Web Design",
       subtitle: "SBS아카데미 컴퓨터아트학원",
       period: "2017.03.09 - 2017.05.04 (2개월)",
-      descriptions: ["Photoshop, HTML, CSS, JavaScript, jQuery"],
     },
   ],
 
-  // ============ 수상 ============
-  awards: [
+  // ============ 자격증 ============
+  certificates: [
     {
-      title: "창의상 단체 2급 ",
-      subtitle: "서울신문사",
-      period: "2023.02",
-      descriptions: ["차세대 통합 CMS 구축 관련 프로그램 개발"],
+      title: "정보처리기사",
+      date: "2016.07.15",
+      institution: "한국산업인력공단",
     },
     {
-      title: "창의상 개인 3급",
-      subtitle: "서울신문사",
-      period: "2020.08",
-      descriptions: ["전광판 주요뉴스 관리 시스템 개발"],
+      title: "OPIc IM3",
+      date: "2019.09.09",
+      institution: "ACTFL",
+    },
+    {
+      title: "TOEIC 870",
+      date: "2016.02.28",
+      institution: "ETS",
     },
   ],
 
@@ -167,42 +94,29 @@ const info = {
       subtitle: "인턴 / BA개발팀",
       period: "2016.09.01 - 2017.02.28 (6개월)",
       logo: "./src/images/logo/daou.jpeg",
-      descriptions: [
-        "그룹웨어(다우오피스) 전자결재 양식 UI 개발",
-        "자유로운 기술 주제로 월간 세미나 발표",
-      ],
+      descriptions: ["그룹웨어(다우오피스) 전자결재 양식 UI 개발"],
     },
   ],
 
-  // ============ 자격증 ============
-  certificates: [
+  // ============ 포상 ============
+  awards: [
     {
-      title: "정보처리기사",
-      date: "2016.07.15",
-      institution: "한국산업인력공단",
+      title: "단체 2급 - '사진 편집 및 전송 프로그램' 개발",
+      subtitle: "(주)서울신문사",
+      period: "2023.02",
     },
     {
-      title: "OPIc IM3",
-      date: "2019.09.09",
-      institution: "ACTFL",
-    },
-    {
-      title: "TOEIC 870",
-      date: "2016.02.28",
-      institution: "ETS",
+      title: "개인 3급 - '전광판 주요뉴스 관리 시스템' 개발",
+      subtitle: "(주)서울신문사",
+      period: "2020.08",
     },
   ],
 
   // ============ 연락처 ============
   contact: {
-    title: "연락처",
-    description: "",
     github: "https://github.com/yeaeun23",
     email: "yeaeun23@naver.com",
   },
-
-  // ============ 푸터 ============
-  footer: "© 2025 Yeeun Kang. All Rights Reserved",
 };
 
 export default info;

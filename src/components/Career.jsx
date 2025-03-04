@@ -5,7 +5,8 @@ function Career({ items }) {
         return (
           <div key={index}>
             <div className="ps-2 my-2 first:mt-0 !mt-2">
-              <h3 className="text-xs font-medium uppercase text-zinc-500 dark:text-zinc-400">
+              {/* =========== 기간 =========== */}
+              <h3 className="text-sm font-medium uppercase text-zinc-500 dark:text-zinc-400">
                 {item.period}
               </h3>
             </div>
@@ -19,18 +20,21 @@ function Career({ items }) {
 
               <div className="grow p-2 pb-8">
                 <h3 className="flex items-center gap-x-2 font-semibold text-zinc-800 dark:text-white">
+                  {/* =========== 로고 =========== */}
                   {item.logo && <img className="w-9 h-9 rounded-full" src={item.logo} alt="Logo" />}
 
-                  <div className="leading-5">
+                  {/* =========== 회사명 =========== */}
+                  <div className="leading-6">
                     {item.title}
-                    <p className="font-normal text-xs text-zinc-600 dark:text-zinc-400">
+                    <p className="font-normal text-sm text-zinc-600 dark:text-zinc-300">
                       {item.subtitle}
                     </p>
                   </div>
                 </h3>
 
+                {/* =========== 담당 업무 =========== */}
                 {item.descriptions && (
-                  <ul className="list-disc list-inside text-zinc-800 dark:text-white mt-2">
+                  <ul className="list-disc list-inside text-zinc-800 dark:text-white mt-3">
                     {item.descriptions.map((description, index) => {
                       return (
                         <li className="flex items-center space-x-3 mt-1" key={index}>
@@ -48,7 +52,7 @@ function Career({ items }) {
                           >
                             <polyline points="20 6 9 17 4 12"></polyline>
                           </svg>
-                          <span className="text-sm text-zinc-500 dark:text-zinc-400">
+                          <span className="text-base text-zinc-500 dark:text-zinc-400">
                             {description}
                           </span>
                         </li>
