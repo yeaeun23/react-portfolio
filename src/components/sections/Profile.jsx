@@ -1,12 +1,23 @@
+import { useEffect } from "react";
 import user_info from "../../data/user_info.js";
 import { IoIosArrowForward } from "react-icons/io";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Profile() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: "ease",
+      once: true,
+    });
+  }, []);
+
   return (
     <section id="profile" className="mx-4 lg:mx-20 px-6 py-44">
       <div className="self-center">
         {/* =========== 작은 사진 =========== */}
-        <div className="hs-tooltip [--placement:right] w-20 hs-tooltip-toggle">
+        <div className="hs-tooltip [--placement:right] w-20 hs-tooltip-toggle" data-aos="zoom-in">
           <img src={user_info.profile.photo} alt="사진" className="rounded-full mb-6 md:hidden" />
           {/* =========== 작은 사진 - 툴팁 =========== */}
           <span
@@ -19,14 +30,16 @@ function Profile() {
 
         <div className="flex align-center flex-wrap md:flex-nowrap justify-between">
           <div className="lg:w-[80%] text-zinc-900 dark:text-zinc-100 self-center">
-            <h1 className="font-black text-5xl lg:w-[85%]">{user_info.profile.title}</h1>
-            <p className="mt-6 text-2xl font-medium lg:w-[87%]">{user_info.profile.subtitle}</p>
-            <p className="mt-8 dark:text-zinc-300 text-base font-light lg:w-[87%] leading-7 text-zinc-500 whitespace-pre-line">
-              {user_info.profile.description}
-            </p>
+            <div data-aos="fade-right">
+              <h1 className="font-black text-5xl lg:w-[85%]">{user_info.profile.title}</h1>
+              <p className="mt-6 text-2xl font-medium lg:w-[87%]">{user_info.profile.subtitle}</p>
+              <p className="mt-8 dark:text-zinc-300 text-base font-light lg:w-[87%] leading-7 text-zinc-500 whitespace-pre-line">
+                {user_info.profile.description}
+              </p>
+            </div>
 
             {/* =========== 링크 =========== */}
-            <div className="flex gap-2 mt-12">
+            <div className="flex gap-2 mt-12" data-aos="fade-up">
               <a
                 href="#projects"
                 className="px-6 py-3 border border-black hover:bg-red-800 hover:text-white hover:border-red-800 dark:border-white font-medium transition-all duration-300"
@@ -44,7 +57,7 @@ function Profile() {
           </div>
 
           {/* =========== 큰 사진 =========== */}
-          <div className="hidden md:block self-center">
+          <div className="hidden md:block self-center" data-aos="fade-left">
             <img
               src={user_info.profile.photo}
               alt="사진"

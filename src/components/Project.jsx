@@ -1,10 +1,12 @@
-function Project({ project }) {
+function Project({ project, delay }) {
   return (
     <a
       target="_blank"
       href={project.link}
       title="더보기"
       className="hover:bg-zinc-100 hover:dark:bg-zinc-900 transition-all duration-300 p-6 rounded-xl"
+      data-aos="fade-up"
+      data-aos-delay={delay}
     >
       {/* =========== 이미지 =========== */}
       {project.image && (

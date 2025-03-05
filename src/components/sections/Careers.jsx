@@ -9,7 +9,7 @@ function Careers() {
   return (
     <section id="careers" className="mx-4 lg:mx-20 flex flex-col md:flex-row gap-6 md:gap-2">
       {/* =========== 왼쪽 영역 =========== */}
-      <div className="w-full md:w-[80%]">
+      <div className="w-full md:w-[80%]" data-aos="fade-up">
         {/* =========== 학력 =========== */}
         <h4 className="text-xl dark:text-white mb-4 font-bold flex gap-2 items-center">
           <FaLandmark className="text-xl text-red-800 dark:text-red-500" />
@@ -112,7 +112,7 @@ function Careers() {
       </div>
 
       {/* =========== 오른쪽 영역 =========== */}
-      <div className="w-full">
+      <div className="w-full" data-aos="fade-up" data-aos-delay="100">
         {/* =========== 경력 =========== */}
         <h4 className="text-xl dark:text-white mb-4 font-bold flex gap-2 items-center">
           <FaBuildingUser className="text-2xl text-red-800 dark:text-red-500" />
