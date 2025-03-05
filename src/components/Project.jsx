@@ -4,17 +4,19 @@ function Project({ project, delay }) {
       target="_blank"
       href={project.link}
       title="더보기"
-      className="hover:bg-zinc-100 hover:dark:bg-zinc-900 transition-all duration-300 p-6 rounded-xl"
+      className="group hover:bg-zinc-100 hover:dark:bg-zinc-900 transition-all duration-300 p-6 rounded-xl"
       data-aos="fade-up"
       data-aos-delay={delay}
     >
       {/* =========== 이미지 =========== */}
       {project.image && (
-        <img
-          src={project.image}
-          alt={project.title}
-          className="w-full h-40 object-cover rounded-xl mb-3 border border-solid border-zinc-200 dark:border-zinc-700"
-        />
+        <div className="relative w-full h-40 rounded-xl mb-3 border border-solid border-zinc-200 dark:border-zinc-700 overflow-hidden">
+          <img
+            src={project.image}
+            alt={project.title}
+            className="absolute w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+          />
+        </div>
       )}
 
       {/* =========== 프로젝트명 =========== */}

@@ -18,7 +18,7 @@ function Footer() {
       {/* =========== TOP 버튼 =========== */}
       <button
         onClick={() => scrollToTop()}
-        className="text-zinc-600 self-center mt-2 md:mt-0 dark:text-zinc-300 mx-auto md:mx-0 text-sm font-light flex gap-2"
+        className="text-zinc-600 self-center mt-2 md:mt-0 dark:text-zinc-300 mx-auto md:mx-0 text-sm font-normal flex gap-2 hover:text-red-800 dark:hover:text-red-500 transition-all duration-300"
       >
         <FaArrowCircleUp className="self-center text-red-800 dark:text-red-500" />
         맨위로
