@@ -1,6 +1,6 @@
 import user_info from "../../data/user_info.js";
-import { DiGithubBadge } from "react-icons/di";
 import { MdEmail } from "react-icons/md";
+import { SiGithub } from "react-icons/si";
 
 function Contact() {
   return (
@@ -14,7 +14,7 @@ function Contact() {
           href={user_info.contact.github}
           className="flex text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-200 gap-4 hover:text-zinc-700 transition-all duration-30"
         >
-          <DiGithubBadge className="self-center text-lg text-red-800 dark:text-red-500" />
+          <SiGithub className="self-center text-lg text-red-800 dark:text-red-500" />
           <span>{user_info.contact.github}</span>
         </a>
 

@@ -34,14 +34,14 @@ const project = {
     {
       title: "Forkio",
       period: "2017.12",
-      skills: "HTML/CSS, JavaScript, jQuery",
+      skills: "HTML/CSS, JavaScript, jQuery, Photoshop",
       image: "./images/project/forkio.jpg",
       link: "https://yeaeun23.github.io/forkio/",
     },
     {
       title: "DJ 페스티벌 홈페이지",
       period: "2017.04",
-      skills: "HTML/CSS, JavaScript, jQuery",
+      skills: "HTML/CSS, JavaScript, jQuery, Photoshop",
       image: "./images/project/wdf.jpg",
       link: "https://yeaeun23.github.io/wdf/",
     },
