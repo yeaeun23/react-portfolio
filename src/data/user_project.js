@@ -3,14 +3,14 @@ const project = {
   projects: [
     {
       title: "커넥트웨이브 메인 페이지",
-      period: "2025.02",
+      period: "2025.02 · 클론 코딩",
       skills: "HTML/CSS, jQuery, GSAP",
       image: "./images/project/connect-wave.png",
       link: "https://yeaeun23.github.io/connect-wave/",
     },
     {
       title: "카카오뱅크 인재영입 메인 페이지",
-      period: "2024.11",
+      period: "2024.11 · 퍼블리싱",
       skills: "HTML/CSS, JavaScript",
       image: "./images/project/kakaobank-recruit.png",
       link: "https://yeaeun23.github.io/kakaobank-recruit/",
@@ -18,29 +18,29 @@ const project = {
     {
       title: "온라인 학습 게시판 '클래스보드'",
       period: "2023.07 - 2024.10 (1년 4개월) · 천재교육",
-      description: "- 웹소켓으로 실시간 화면 동기화",
-      skills: "ReactJS, SCSS, TypeScript, Recoil, MariaDB, AWS",
+      descriptions: ["웹소켓으로 실시간 화면 동기화"],
+      skills: "ReactJS, TypeScript, Styled Components, Recoil, AWS",
       image: "./images/project/clboard.jpg",
       link: "https://www.clboard.co.kr/",
     },
     {
       title: "영업 관리 시스템 '더게이지'",
       period: "2022.10 - 2023.03 (6개월) · 외주",
-      description: "엑셀로 관리하던 양식을 ",
-      skills: "ReactJS, SCSS, Bootstrap, JavaScript, Node.js, MySQL, AWS, Cafe24",
+      descriptions: ["엑셀로 관리하던 양식을 "],
+      skills: "ReactJS, JavaScript, SCSS, Bootstrap, MUI, Node.js, MySQL, AWS, Cafe24",
       image: "./images/project/sales-management.png",
       link: "https://github.com/yeaeun23/sales-management/",
     },
     {
-      title: "Forkio",
-      period: "2017.12",
+      title: "SW 소개 페이지",
+      period: "2017.12 · 퍼블리싱",
       skills: "HTML/CSS, JavaScript, jQuery, Photoshop",
       image: "./images/project/forkio.jpg",
       link: "https://yeaeun23.github.io/forkio/",
     },
     {
       title: "DJ 페스티벌 홈페이지",
-      period: "2017.04",
+      period: "2017.03 - 2017.04 (2개월) · 디자인/퍼블리싱",
       skills: "HTML/CSS, JavaScript, jQuery, Photoshop",
       image: "./images/project/wdf.jpg",
       link: "https://yeaeun23.github.io/wdf/",
@@ -98,48 +98,60 @@ const project = {
     {
       title: "신문 지면 제작 모니터링 시스템",
       period: "2021.08 · 서울신문사",
-      description:
-        "- 내일자 지면의 제작 현황을 실시간으로 보여준다.\n- 오탈자가 없는지, 사진에 문제가 없는지, 지면 분배가 잘 됐는지, 출력까지 정상적으로 이어졌는지 전체적으로 확인한다.",
+      descriptions: [
+        "내일자 지면의 제작 현황을 실시간으로 보여준다.",
+        "오탈자가 없는지, 사진에 문제가 없는지, 지면 분배가 잘 됐는지, 출력까지 정상적으로 이어졌는지 전체적으로 확인한다.",
+      ],
       skills: "HTML/CSS, JavaScript, jQuery",
       link: "https://github.com/yeaeun23/paper-production-monitoring",
     },
     {
       title: "연락처 관리 시스템",
       period: "2020.09 - 2020.10 (2개월) · 서울신문사",
-      description:
-        "- 각종 분야의 취재원 연락처(전화번호, 이메일)를 사내 자산으로 보관·관리하고, 취재에 공통적으로 사용한다.",
+      descriptions: [
+        "각종 분야의 취재원 연락처(전화번호, 이메일)를 사내 자산으로 보관·관리하고, 취재에 공통적으로 사용한다.",
+      ],
       skills: "HTML/CSS, Bootstrap, JavaScript, jQuery, C#, MSSQL",
       link: "https://github.com/yeaeun23/phone-book",
     },
     {
       title: "전광판 주요뉴스 관리 시스템",
       period: "2020.05 - 2020.06 (2개월) · 서울신문사 · 포상",
-      description:
-        "- 기사 헤드라인 이미지 파일을 자동 생성하고, 서버로 전송한다. (외부 전광판에 노출)",
+      descriptions: [
+        "기사 헤드라인 이미지 파일을 자동 생성하고, 서버로 전송한다. (외부 전광판에 노출)",
+      ],
       skills: "HTML/CSS, Bootstrap, JavaScript, jQuery, C#",
       link: "https://github.com/yeaeun23/text-image-generator",
     },
     {
       title: "개표율 모니터링 시스템(선관위 API 활용)",
       period: "2020.04 - 2020.05 (2개월) · 서울신문사",
-      description:
-        "- 서울신문 홈페이지에 실시간으로 표기될 당선/확실/유력 값을 입력하도록 form을 제공한다.\n- 선관위 데이터를 연동해, 실시간 전국 개표율과 후보자 정보를 출력한다.\n- 2020.04.15 제21대 국회의원선거 당일 서울신문 SNS 채널 라이브 방송 자료로 활용",
+      descriptions: [
+        "서울신문 홈페이지에 실시간으로 표기될 당선/확실/유력 값을 입력하도록 form을 제공한다.",
+        "선관위 데이터를 연동해, 실시간 전국 개표율과 후보자 정보를 출력한다.",
+        "2020.04.15 제21대 국회의원선거 당일 서울신문 SNS 채널 라이브 방송 자료로 활용",
+      ],
       skills: "HTML/CSS, JavaScript, jQuery, C#, MSSQL",
       link: "https://github.com/yeaeun23/vote-count-monitoring",
     },
     {
       title: "사내 게시판, 조직도 등 모바일 웹앱",
       period: "2019.10 - 2020.03 (6개월) · 서울신문사",
-      description:
-        "- 기존 Native 앱의 일부 기능 서비스 종료와 효율적인 유지보수를 위해 Hybrid 앱으로 재개발한다.\n- 로그인 앱(iOS, Android) + 모바일 웹(웹뷰)",
+      descriptions: [
+        "기존 Native 앱의 일부 기능 서비스 종료와 효율적인 유지보수를 위해 Hybrid 앱으로 재개발한다.",
+        "로그인 앱(iOS, Android) + 모바일 웹(웹뷰)",
+      ],
       skills: "HTML/CSS, JavaScript, jQuery, C#, MSSQL, Java, Swift",
       link: "https://github.com/yeaeun23/webview-for-company",
     },
     {
       title: "헬스장 등록 관리 시스템",
       period: "2019.07 - 2019.08 (2개월) · 서울신문사",
-      description:
-        "- 헬스장 등록 또는 해지, 부대시설을 선택하고, 내역을 관리한다.\n- DB 작업 스케줄러를 이용해 해지하지 않은 사용자는 매달 1일에 자동 연장한다.\n- 메일로 신청했던 기존 절차를 간편화 한다.",
+      descriptions: [
+        "헬스장 등록 또는 해지, 부대시설을 선택하고, 내역을 관리한다.",
+        "DB 작업 스케줄러를 이용해 해지하지 않은 사용자는 매달 1일에 자동 연장한다.",
+        "메일로 신청했던 기존 절차를 간편화 한다.",
+      ],
       skills: "HTML/CSS, JavaScript, jQuery, C#, MSSQL",
       link: "https://github.com/yeaeun23/gym-application-management",
     },
@@ -150,8 +162,10 @@ const project = {
     {
       title: "사진 편집 및 전송 프로그램",
       period: "2021.01 - 2021.04, 2022.12 - 2023.01 (6개월) · 서울신문사 · 포상",
-      description:
-        "- 편집이 필요한 사진을 요청사항과 함께 등록하면, 편집자가 보고 바로 수정한다.\n- 포토샵 작업과 서버 업로드까지 한번에 처리해 업무 효율을 높인다.",
+      descriptions: [
+        "편집이 필요한 사진을 요청사항과 함께 등록하면, 편집자가 보고 바로 수정한다.",
+        "포토샵 작업과 서버 업로드까지 한번에 처리해 업무 효율을 높인다.",
+      ],
       skills: "JavaScript, C#, MSSQL, Window",
       image: "./images/project/requested-image-editor.png",
       link: "https://github.com/yeaeun23/requested-image-editor",
@@ -159,8 +173,11 @@ const project = {
     {
       title: "EPS 파일 뷰어/전송 프로그램",
       period: "2019.03 - 2019.07 (5개월) · 서울신문사",
-      description:
-        "- 신문 지면에 실릴 이미지 파일(.eps)을 로컬에서 서버로 전송한다.\n- 프로그램을 실행할 때마다 버전을 체크하고, 자동으로 업데이트한다.\n- 기존 외주 프로그램을 자체적으로 개발한다.",
+      descriptions: [
+        "신문 지면에 실릴 이미지 파일(.eps)을 로컬에서 서버로 전송한다.",
+        "프로그램을 실행할 때마다 버전을 체크하고, 자동으로 업데이트한다.",
+        "기존 외주 프로그램을 자체적으로 개발한다.",
+      ],
       skills: "C#, MSSQL, Window",
       image: "./images/project/eps-image-sender.png",
       link: "https://github.com/yeaeun23/eps-image-sender",
@@ -168,8 +185,10 @@ const project = {
     {
       title: "기사 조회수 모니터링 프로그램(페이스북 API 활용)",
       period: "2018.06 · 서울신문사",
-      description:
-        "- 최근 기사, 조회수, 페이스북 좋아요 랭킹을 실시간으로 보여준다.\n- 편집국 내 TV로 24시간 내내 모니터링할 수 있도록 한다.",
+      descriptions: [
+        "최근 기사, 조회수, 페이스북 좋아요 랭킹을 실시간으로 보여준다.",
+        "편집국 내 TV로 24시간 내내 모니터링할 수 있도록 한다.",
+      ],
       skills: "XAML, C#, API, Window",
       image: "./images/project/page-views-ranking.png",
       link: "https://github.com/yeaeun23/page-views-ranking",

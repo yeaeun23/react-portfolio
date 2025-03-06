@@ -43,7 +43,7 @@ function Skills() {
     { name: "npm", icon: SiNpm, period: "1~3년", level: "중" },
     { name: "Vite", icon: SiVite, period: "1~3년", level: "하" },
 
-    { name: ".NET", icon: SiDotnet, period: "3~5년", level: "중" },
+    { name: "C#.NET", icon: SiDotnet, period: "3~5년", level: "중" },
 
     { name: "SCSS", icon: SiSass, period: "1~3년", level: "중" },
     { name: "Tailwind", icon: SiTailwindcss, period: "1년 미만", level: "하" },

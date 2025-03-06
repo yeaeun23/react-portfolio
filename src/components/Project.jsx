@@ -28,9 +28,31 @@ function Project({ project, delay }) {
       </p>
 
       {/* =========== 설명 =========== */}
-      <p className="leading-7 text-zinc-500 dark:text-zinc-400 font-light text-base mt-1 whitespace-pre-line">
-        {project.description}
-      </p>
+      {project.descriptions && (
+        <ul className="list-disc list-inside text-zinc-800 dark:text-white mt-3">
+          {project.descriptions.map((description, index) => {
+            return (
+              <li className="flex items-start space-x-1 mt-1" key={index}>
+                <svg
+                  className="flex-shrink-0 size-4 text-red-800 dark:text-red-500 mt-1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+                <span className="text-base text-zinc-500 dark:text-zinc-400">{description}</span>
+              </li>
+            );
+          })}
+        </ul>
+      )}
 
       {/* =========== 기술 스택 =========== */}
       <div className="flex gap-2 overflow-x-scroll mt-3">

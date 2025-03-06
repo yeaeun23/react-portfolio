@@ -1,6 +1,5 @@
 import user_info from "../../data/user_info.js";
-import { MdEmail } from "react-icons/md";
-import { SiGithub } from "react-icons/si";
+import { SiGithub, SiMailboxdotorg } from "react-icons/si";
 
 function Contact() {
   return (
@@ -23,7 +22,7 @@ function Contact() {
           href={`mailto:${user_info.contact.email}`}
           className="flex text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-200 gap-4 hover:text-zinc-700 transition-all duration-30"
         >
-          <MdEmail className="self-center text-lg text-red-800 dark:text-red-500" />
+          <SiMailboxdotorg className="self-center text-base text-red-800 dark:text-red-500" />
           <span>{user_info.contact.email}</span>
         </a>
       </div>

@@ -37,7 +37,7 @@ function Career({ items }) {
                   <ul className="list-disc list-inside text-zinc-800 dark:text-white mt-3">
                     {item.descriptions.map((description, index) => {
                       return (
-                        <li className="flex items-center space-x-3 mt-1" key={index}>
+                        <li className="flex items-center space-x-2 mt-1" key={index}>
                           <svg
                             className="flex-shrink-0 size-4 text-red-800 dark:text-red-500"
                             xmlns="http://www.w3.org/2000/svg"
