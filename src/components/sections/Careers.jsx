@@ -30,7 +30,7 @@ function Careers() {
           자격증
         </h4>
         <div data-hs-carousel='{"loadingClasses": "opacity-0"}' className="relative">
-          <div className="hs-carousel relative overflow-hidden w-full h-48 bg-white dark:bg-gray-800 rounded-lg">
+          <div className="hs-carousel relative overflow-hidden w-full h-44 bg-white dark:bg-gray-800 rounded-lg">
             <div className="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
               {user_info.certificates.map((cert, index) => {
                 return (

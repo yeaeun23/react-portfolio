@@ -55,7 +55,7 @@ function Project({ project, delay }) {
       )}
 
       {/* =========== 기술 스택 =========== */}
-      <div className="flex gap-2 overflow-x-scroll mt-3">
+      <div className="flex gap-2 flex-wrap mt-3">
         {project.skills.split(",").map((skill, index) => (
           <span
             key={index}

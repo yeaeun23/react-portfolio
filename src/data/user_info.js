@@ -13,7 +13,7 @@ const info = {
   schools: [
     {
       title: "건국대학교",
-      subtitle: "인터넷·미디어공학과 / 학사 졸업",
+      subtitle: "인터넷미디어공학과 / 학사 졸업",
       period: "2013.03 - 2017.02 (4년)",
       logo: "./images/logo/konkuk.jpg",
     },
@@ -33,6 +33,16 @@ const info = {
       period: "2024.11.13 - 2025.01.08 (2개월)",
     },
     {
+      title: "SQL Server 쿼리 마스터",
+      subtitle: "웹타임",
+      period: "2018.06.25 - 2018.06.29 (35시간)",
+    },
+    {
+      title: "C# 프로그래밍",
+      subtitle: "웹타임",
+      period: "2018.05.14 - 2018.05.18 (35시간)",
+    },
+    {
       title: "Web Design",
       subtitle: "SBS아카데미 컴퓨터아트학원",
       period: "2017.03.09 - 2017.05.04 (2개월)",
@@ -44,7 +54,7 @@ const info = {
     {
       title: "정보처리기사",
       date: "2016.07.15",
-      institution: "한국산업인력공단",
+      institution: "한국산업인력공단 / 16202020250N",
     },
     {
       title: "OPIc IM3",
@@ -62,7 +72,7 @@ const info = {
   company: [
     {
       title: "(주)천재교육",
-      subtitle: "정규직 / 서비스개발팀 / 팀원 · 대리급",
+      subtitle: "정규직 / 서비스개발팀 / 대리급 · 팀원",
       period: "2023.05.15 - 2024.10.22 (1년 6개월)",
       logo: "./images/logo/chunjae.jpeg",
       descriptions: [
@@ -73,7 +83,7 @@ const info = {
     },
     {
       title: "(주)서울신문사",
-      subtitle: "정규직 / IT개발팀 / 팀원 · 대리",
+      subtitle: "정규직 / IT개발팀 / 대리 · 팀원",
       period: "2018.03.05 - 2023.05.14 (5년 3개월)",
       logo: "./images/logo/seoul.jpeg",
       descriptions: [
