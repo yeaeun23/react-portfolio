@@ -12,15 +12,15 @@ const info = {
   // ============ 학력 ============
   schools: [
     {
-      title: "건국대학교",
+      title: "건국대학교(서울)",
       subtitle: "인터넷미디어공학과 / 학사 졸업",
-      period: "2013.03 - 2017.02 (4년)",
+      period: "2013.03.04 - 2017.02.22 (4년)",
       logo: "./images/logo/konkuk.jpg",
     },
     {
-      title: "오금고등학교",
+      title: "오금고등학교(서울)",
       subtitle: "이과 / 졸업",
-      period: "2010.03 - 2013.02 (3년)",
+      period: "2010.03.02 - 2013.02.06 (3년)",
       logo: "./images/logo/ogeum.webp",
     },
   ],
@@ -31,21 +31,25 @@ const info = {
       title: "인터랙티브 웹 완전 정복",
       subtitle: "패스트캠퍼스",
       period: "2024.11.13 - 2025.01.08 (2개월)",
+      descriptions: ["HTML, CSS, JavaScript, React.js, Matter.js"],
     },
     {
       title: "SQL Server 쿼리 마스터",
       subtitle: "웹타임",
       period: "2018.06.25 - 2018.06.29 (35시간)",
+      descriptions: ["MSSQL, MySQL"],
     },
     {
       title: "C# 프로그래밍",
       subtitle: "웹타임",
       period: "2018.05.14 - 2018.05.18 (35시간)",
+      descriptions: ["C#.NET, ASP.NET"],
     },
     {
       title: "Web Design",
       subtitle: "SBS아카데미 컴퓨터아트학원",
-      period: "2017.03.09 - 2017.05.04 (2개월)",
+      period: "2017.03.09 - 2017.05.04 (2개월/160시간)",
+      descriptions: ["Photoshop, HTML, CSS, JavaScript, jQuery"],
     },
   ],
 
