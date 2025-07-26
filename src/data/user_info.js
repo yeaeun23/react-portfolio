@@ -2,7 +2,7 @@ const info = {
   // ============ 프로필 ============
   profile: {
     title: "강 예 은",
-    subtitle: "프론트엔드 개발자 & 퍼블리셔",
+    subtitle: "웹 퍼블리셔 / UI 개발자",
     description:
       "UI/UX에 가치를 두고 사용자 경험을 중요시합니다.\n새로운 기술에 대한 지속적인 학습을 추구합니다.",
     photo: "./images/photo.jpeg",
@@ -75,7 +75,17 @@ const info = {
   // ============ 경력 ============
   company: [
     {
-      title: "(주)천재교육",
+      title: "LG CNS",
+      subtitle: "프리랜서 / 디자인사업개발팀 / 선임 · 팀원",
+      period: "2025.06.02 - 2025.08.06 (3개월)",
+      logo: "./images/logo/lgcns.jpeg",
+      descriptions: [
+        "GS건설 차세대 전자전표 UI 개발(React.js)",
+        "디자인 시스템 개선 및 공통 컴포넌트 개발",
+      ],
+    },
+    {
+      title: "천재교육",
       subtitle: "정규직 / 서비스개발팀 / 대리급 · 팀원",
       period: "2023.05.15 - 2024.10.22 (1년 6개월)",
       logo: "./images/logo/chunjae.jpeg",
@@ -86,7 +96,7 @@ const info = {
       ],
     },
     {
-      title: "(주)서울신문사",
+      title: "서울신문사",
       subtitle: "정규직 / IT개발팀 / 대리 · 팀원",
       period: "2018.03.05 - 2023.05.14 (5년 3개월)",
       logo: "./images/logo/seoul.jpeg",
@@ -97,18 +107,18 @@ const info = {
       ],
     },
     {
-      title: "(주)엔테크서비스",
+      title: "엔테크서비스",
       subtitle: "인턴 / UI개발팀",
       period: "2017.07.03 - 2017.08.31 (2개월)",
       logo: "./images/logo/nts.jpeg",
-      descriptions: ["네이버 서비스 UI 개발"],
+      descriptions: ["네이버 서비스 UI 개발(HTML/CSS)"],
     },
     {
-      title: "(주)다우기술",
+      title: "다우기술",
       subtitle: "인턴 / BA개발팀",
       period: "2016.09.01 - 2017.02.28 (6개월)",
       logo: "./images/logo/daou.jpeg",
-      descriptions: ["그룹웨어(다우오피스) 전자결재 양식 UI 개발"],
+      descriptions: ["그룹웨어(다우오피스) 전자결재 양식 UI 개발(HTML/CSS)"],
     },
   ],
 
@@ -116,12 +126,12 @@ const info = {
   awards: [
     {
       title: "단체 2급 - '사진 편집 및 전송 프로그램' 개발",
-      subtitle: "(주)서울신문사",
+      subtitle: "서울신문사",
       period: "2023.02.28",
     },
     {
       title: "개인 3급 - '전광판 주요뉴스 관리 시스템' 개발",
-      subtitle: "(주)서울신문사",
+      subtitle: "서울신문사",
       period: "2020.08.18",
     },
   ],

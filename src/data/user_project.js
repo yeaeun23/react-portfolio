@@ -2,6 +2,17 @@ const project = {
   // ============ 프로젝트 1 ============
   projects: [
     {
+      title: "GS건설 차세대 전자전표 시스템",
+      period: "2025.06 - 2025.08 (3개월) · LG CNS",
+      descriptions: [
+        "전자전표 UI 개발 및 공통 레이아웃 설계",
+        "MUI 기반의 디자인 시스템 활용 및 컴포넌트 개선",
+      ],
+      skills: "ReactJS, TypeScript, MUI, Design System",
+      image: "./images/project/electronic.png",
+      // link: "https://www.clboard.co.kr/",
+    },
+    {
       title: "커넥트웨이브 메인 페이지",
       period: "2025.02 · 클론 코딩",
       descriptions: ["GSAP을 활용한 인터랙티브 웹"],
