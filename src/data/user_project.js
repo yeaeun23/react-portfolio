@@ -38,7 +38,7 @@ const project = {
       ],
       skills: "반응형, ReactJS, TypeScript, SCSS, Recoil, AWS",
       image: "./images/project/clboard.jpg",
-      link: "https://www.clboard.co.kr/",
+      link: "./images/project/clboard.pdf",
     },
     {
       title: "영업 관리 시스템 '더게이지'",
