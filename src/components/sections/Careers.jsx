@@ -17,13 +17,6 @@ function Careers() {
         </h4>
         <Career items={user_info.schools} />
 
-        {/* =========== 교육 =========== */}
-        <h4 className="text-xl dark:text-white mt-6 mb-4 font-bold flex gap-2 items-center">
-          <PiCertificateFill className="text-2xl text-red-800 dark:text-red-500" />
-          교육
-        </h4>
-        <Career items={user_info.educations} />
-
         {/* =========== 자격증 =========== */}
         <h4 className="text-xl dark:text-white mt-6 mb-4 font-bold flex gap-2 items-center">
           <PiCertificateFill className="text-2xl text-red-800 dark:text-red-500" />
@@ -109,6 +102,13 @@ function Careers() {
             })}
           </div>
         </div>
+
+        {/* =========== 교육 =========== */}
+        <h4 className="text-xl dark:text-white mt-6 mb-4 font-bold flex gap-2 items-center">
+          <PiCertificateFill className="text-2xl text-red-800 dark:text-red-500" />
+          교육
+        </h4>
+        <Career items={user_info.educations} />
       </div>
 
       {/* =========== 오른쪽 영역 =========== */}
