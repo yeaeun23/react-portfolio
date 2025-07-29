@@ -4,6 +4,7 @@ import NotFound from "./pages/404";
 import { useEffect, useState } from "react";
 import { createContext } from "react";
 import "preline/preline";
+import ProjectDetail from "./components/ProjectDetail";
 
 export const AppContext = createContext();
 
@@ -26,6 +27,7 @@ function App() {
       <BrowserRouter basename="/react-portfolio">
         <Routes>
           <Route path="/" element={<Homepage />} />
+          <Route path="/project/detail" element={<ProjectDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

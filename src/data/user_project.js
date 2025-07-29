@@ -10,7 +10,7 @@ const project = {
       ],
       skills: "ReactJS, TypeScript, MUI, Design System",
       image: "./images/project/electronic.png",
-      // link: "https://www.clboard.co.kr/",
+      link: "./project/detail",
     },
     {
       title: "커넥트웨이브 메인 페이지",
