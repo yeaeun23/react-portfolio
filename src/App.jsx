@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import NotFound from "./pages/404";
 import { useEffect, useState } from "react";
@@ -24,13 +24,13 @@ function App() {
 
   return (
     <AppContext.Provider value={{ theme, switchTheme }}>
-      <BrowserRouter basename="/react-portfolio">
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/project/detail" element={<ProjectDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </AppContext.Provider>
   );
 }
