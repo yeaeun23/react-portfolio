@@ -41,13 +41,27 @@ function Profile() {
             {/* =========== 링크 =========== */}
             <div className="flex gap-2 mt-12" data-aos="fade-up">
               <a
-                href="#projects"
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                  const el = document.getElementById("projects");
+                  if (el) {
+                    el.scrollIntoView({ behavior: "smooth" });
+                  }
+                }}
                 className="px-6 py-3 border border-black hover:bg-red-800 hover:text-white hover:border-red-800 dark:border-white font-medium transition-all duration-300"
               >
                 프로젝트
               </a>
               <a
-                href="#skills"
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                  const el = document.getElementById("skills");
+                  if (el) {
+                    el.scrollIntoView({ behavior: "smooth" });
+                  }
+                }}
                 className="px-6 py-3 hover:text-red-800 dark:hover:text-red-500 transition-all duration-300 flex gap-3 hover:gap-4"
               >
                 <span className="self-center font-medium">기술 스택</span>
