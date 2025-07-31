@@ -77,7 +77,7 @@ const info = {
     {
       title: "LG CNS",
       subtitle: "프리랜서 / 디자인사업개발팀 / 선임 · 팀원",
-      period: "2025.06.02 - 2025.08.06 (3개월)",
+      period: "2025.06.02 - 재직중",
       logo: "./images/logo/lgcns.jpeg",
       descriptions: [
         "GS건설 차세대 전자전표 UI 개발(React.js)",

@@ -3,7 +3,7 @@ const project = {
   projects: [
     {
       title: "GS건설 차세대 전자전표 시스템",
-      period: "2025.06 - 2025.08 (3개월) · LG CNS",
+      period: "2025.06 - 재직중 · LG CNS",
       descriptions: [
         "전자전표 UI 개발 및 공통 레이아웃 설계",
         "MUI 기반의 디자인 시스템 활용 및 컴포넌트 개선",
@@ -12,21 +12,6 @@ const project = {
       image: "./images/project/electronic.png",
       link: "/react-portfolio/#/project/detail",
     },
-    {
-      title: "커넥트웨이브 메인 페이지",
-      period: "2025.02 · 클론 코딩",
-      descriptions: ["GSAP을 활용한 인터랙티브 웹"],
-      skills: "HTML/CSS, jQuery, GSAP",
-      image: "./images/project/connect-wave.png",
-      link: "https://yeaeun23.github.io/connect-wave/",
-    },
-    // {
-    //   title: "카카오뱅크 인재영입 메인 페이지",
-    //   period: "2024.11 · 퍼블리싱",
-    //   skills: "HTML/CSS, JavaScript",
-    //   image: "./images/project/kakaobank-recruit.png",
-    //   link: "https://yeaeun23.github.io/kakaobank-recruit/",
-    // },
     {
       title: "학급 온라인 게시판 '클래스보드'",
       period: "2023.07 - 2024.10 (1년 4개월) · 천재교육",
@@ -51,6 +36,21 @@ const project = {
       skills: "ReactJS, JavaScript, SCSS, Bootstrap, MUI, Node.js, API, MySQL, AWS, Cafe24",
       image: "./images/project/sales-management.png",
       link: "https://github.com/yeaeun23/sales-management/",
+    },
+    {
+      title: "커넥트웨이브 메인 페이지",
+      period: "2025.02 · 클론 코딩",
+      descriptions: ["GSAP을 활용한 인터랙티브 웹"],
+      skills: "HTML/CSS, jQuery, GSAP",
+      image: "./images/project/connect-wave.png",
+      link: "https://yeaeun23.github.io/connect-wave/",
+    },
+    {
+      title: "카카오뱅크 인재영입 메인 페이지",
+      period: "2024.11 · 퍼블리싱",
+      skills: "HTML/CSS, JavaScript",
+      image: "./images/project/kakaobank-recruit.png",
+      link: "https://yeaeun23.github.io/kakaobank-recruit/",
     },
     {
       title: "SW 소개 페이지",
