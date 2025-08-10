@@ -107,7 +107,7 @@ const info = {
       ],
     },
     {
-      title: "엔테크서비스",
+      title: "엔테크서비스(NTS)",
       subtitle: "인턴 / UI개발팀",
       period: "2017.07.03 - 2017.08.31 (2개월)",
       logo: "./images/logo/nts.jpeg",
