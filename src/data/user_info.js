@@ -75,13 +75,13 @@ const info = {
   // ============ 경력 ============
   company: [
     {
-      title: "LG CNS",
-      subtitle: "프리랜서 / 디자인사업개발팀 / 선임 · 팀원",
+      title: "스페이드컴퍼니 (LG CNS 협력사)",
+      subtitle: "프리랜서 / 개발팀",
       period: "2025.06.02 - 재직중",
-      logo: "./images/logo/lgcns.jpeg",
+      logo: "./images/logo/spade.svg",
       descriptions: [
-        "GS건설 차세대 전자전표 UI 개발(React.js)",
-        "디자인 시스템 개선 및 공통 컴포넌트 개발",
+        "LG CNS 디자인 시스템 개선 및 공통 컴포넌트 개발",
+        "GS건설 전자전표 시스템 UI 개발(React.js)",
       ],
     },
     {

@@ -2,11 +2,11 @@ const project = {
   // ============ 프로젝트 1 ============
   projects: [
     {
-      title: "GS건설 차세대 전자전표 시스템",
-      period: "2025.06 - 재직중 · LG CNS",
+      title: "GS건설 전자전표 시스템",
+      period: "2025.06 - 재직중 · 스페이드컴퍼니",
       descriptions: [
-        "전자전표 UI 개발 및 공통 레이아웃 설계",
-        "MUI 기반의 디자인 시스템 활용 및 컴포넌트 개선",
+        "LG CNS 디자인 시스템을 활용한 UI 개발",
+        "PC/태블릿/모바일 공통 레이아웃 설계",
       ],
       skills: "ReactJS, TypeScript, MUI, Design System",
       image: "./images/project/electronic.png",
@@ -27,7 +27,7 @@ const project = {
     },
     {
       title: "영업 관리 시스템 '더게이지'",
-      period: "2022.10 - 2023.03 (6개월) · 외주",
+      period: "2022.10 - 2023.03 (6개월) · 개인 외주",
       descriptions: [
         "연도/거래처별 시트, 진행 상태, 수주 금액 조회",
         "시트 단계에 따라 데이터 자동으로 입력",
@@ -39,7 +39,7 @@ const project = {
     },
     {
       title: "커넥트웨이브 메인 페이지",
-      period: "2025.02 · 클론 코딩",
+      period: "2025.02 · 개인",
       descriptions: ["GSAP을 활용한 인터랙티브 웹"],
       skills: "HTML/CSS, jQuery, GSAP",
       image: "./images/project/connect-wave.png",
@@ -47,21 +47,21 @@ const project = {
     },
     {
       title: "카카오뱅크 인재영입 메인 페이지",
-      period: "2024.11 · 퍼블리싱",
+      period: "2024.11 · 교육(패스트캠퍼스)",
       skills: "HTML/CSS, JavaScript",
       image: "./images/project/kakaobank-recruit.png",
       link: "https://yeaeun23.github.io/kakaobank-recruit/",
     },
     {
       title: "SW 소개 페이지",
-      period: "2017.12 · 퍼블리싱",
+      period: "2017.12 · 개인",
       skills: "반응형, HTML/CSS, JavaScript, jQuery, Photoshop",
       image: "./images/project/forkio.jpg",
       link: "https://yeaeun23.github.io/forkio/",
     },
     {
       title: "DJ 페스티벌 홈페이지",
-      period: "2017.03 - 2017.04 (2개월) · 디자인/퍼블리싱",
+      period: "2017.03 - 2017.04 (2개월) · 교육(SBS아카데미 컴퓨터아트학원)",
       skills: "HTML/CSS, JavaScript, jQuery, Photoshop",
       image: "./images/project/wdf.jpg",
       link: "https://yeaeun23.github.io/wdf/",
@@ -72,42 +72,42 @@ const project = {
   projects2: [
     {
       title: "움직이는 404 에러 페이지",
-      period: "2024.11 · 패스트캠퍼스",
+      period: "2024.11 · 교육(패스트캠퍼스)",
       skills: "HTML/CSS, JavaScript",
       image: "./images/project/1-2 404-error-page.gif",
       link: "https://yeaeun23.github.io/404-error-page/",
     },
     {
       title: "끈적한 구이(Gooey) 효과",
-      period: "2024.12 · 패스트캠퍼스",
+      period: "2024.12 · 교육(패스트캠퍼스)",
       skills: "HTML, JavaScript, Canvas, dat.GUI",
       image: "./images/project/2-1 gooey-effect.gif",
       link: "https://yeaeun23.github.io/gooey-effect/",
     },
     {
       title: "화려한 도시의 불꽃놀이",
-      period: "2024.12 · 패스트캠퍼스",
+      period: "2024.12 · 교육(패스트캠퍼스)",
       skills: "HTML/CSS, JavaScript, Canvas",
       image: "./images/project/2-2 fireworks.gif",
       link: "https://yeaeun23.github.io/fireworks/",
     },
     {
       title: "Congrats! Confetti!",
-      period: "2024.12 · 패스트캠퍼스",
+      period: "2024.12 · 교육(패스트캠퍼스)",
       skills: "HTML/CSS, JavaScript, Canvas",
       image: "./images/project/2-4 confetti-2.gif",
       link: "https://yeaeun23.github.io/confetti/",
     },
     {
       title: "미니 게임 '벌레날다'",
-      period: "2024.12 · 패스트캠퍼스",
+      period: "2024.12 · 교육(패스트캠퍼스)",
       skills: "HTML/CSS, JavaScript, Canvas, GSAP",
       image: "./images/project/2-5 mini-game.gif",
       link: "https://yeaeun23.github.io/mini-game/",
     },
     {
       title: "끊어지는 밧줄(Rope Physics)",
-      period: "2024.12 · 패스트캠퍼스",
+      period: "2024.12 · 교육(패스트캠퍼스)",
       skills: "HTML/CSS, JavaScript, Canvas",
       image: "./images/project/2-6 rope-physics.gif",
       link: "https://yeaeun23.github.io/rope-physics/",
