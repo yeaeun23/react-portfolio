@@ -12,14 +12,14 @@ function Careers() {
       <div className="w-full md:w-[80%]" data-aos="fade-up">
         {/* =========== 학력 =========== */}
         <h4 className="text-xl dark:text-white mb-4 font-bold flex gap-2 items-center">
-          <FaLandmark className="text-xl text-red-800 dark:text-red-500" />
+          <FaLandmark className="text-xl text-blue-800 dark:text-blue-500" />
           학력
         </h4>
         <Career items={user_info.schools} />
 
         {/* =========== 자격증 =========== */}
         <h4 className="text-xl dark:text-white mt-6 mb-4 font-bold flex gap-2 items-center">
-          <PiCertificateFill className="text-2xl text-red-800 dark:text-red-500" />
+          <PiCertificateFill className="text-2xl text-blue-800 dark:text-blue-500" />
           자격증
         </h4>
         <div data-hs-carousel='{"loadingClasses": "opacity-0"}' className="relative">
@@ -30,7 +30,7 @@ function Careers() {
                   <div className="hs-carousel-slide relative" key={index}>
                     <div className="flex justify-center items-center h-full bg-gray-100 p-6 dark:bg-neutral-900">
                       <div className="hs-tooltip [--placement:bottom] inline-block">
-                        <div className="hs-tooltip-toggle text-center text-gray-800 dark:text-white hover:text-red-800 hover:dark:text-red-500">
+                        <div className="hs-tooltip-toggle text-center text-gray-800 dark:text-white hover:text-blue-800 hover:dark:text-blue-500">
                           <p className="transition duration-700 px-6 font-bold">{cert.title}</p>
                           <p className="transition duration-700 px-6 text-sm">{cert.institution}</p>
                           <p className="transition duration-700 px-6 text-sm mt-3 text-zinc-500">
@@ -95,7 +95,7 @@ function Careers() {
             {user_info.certificates.map((cert, index) => {
               return (
                 <span
-                  className="hs-carousel-active:bg-red-700 hs-carousel-active:border-red-700 size-3 border border-gray-400 rounded-full cursor-pointer dark:border-neutral-600 dark:hs-carousel-active:bg-red-500 dark:hs-carousel-active:border-red-500"
+                  className="hs-carousel-active:bg-blue-700 hs-carousel-active:border-blue-700 size-3 border border-gray-400 rounded-full cursor-pointer dark:border-neutral-600 dark:hs-carousel-active:bg-blue-500 dark:hs-carousel-active:border-blue-500"
                   key={index}
                 ></span>
               );
@@ -105,7 +105,7 @@ function Careers() {
 
         {/* =========== 교육 =========== */}
         <h4 className="text-xl dark:text-white mt-6 mb-4 font-bold flex gap-2 items-center">
-          <PiCertificateFill className="text-2xl text-red-800 dark:text-red-500" />
+          <PiCertificateFill className="text-2xl text-blue-800 dark:text-blue-500" />
           교육
         </h4>
         <Career items={user_info.educations} />
@@ -115,14 +115,14 @@ function Careers() {
       <div className="w-full" data-aos="fade-up" data-aos-delay="100">
         {/* =========== 경력 =========== */}
         <h4 className="text-xl dark:text-white mb-4 font-bold flex gap-2 items-center">
-          <FaBuildingUser className="text-2xl text-red-800 dark:text-red-500" />
+          <FaBuildingUser className="text-2xl text-blue-800 dark:text-blue-500" />
           경력 (총 6년 11개월)
         </h4>
         <Career items={user_info.company} />
 
         {/* =========== 포상 =========== */}
         <h4 className="text-xl dark:text-white mt-6 mb-4 font-bold flex gap-2 items-center">
-          <FaAward className="text-2xl text-red-800 dark:text-red-500" />
+          <FaAward className="text-2xl text-blue-800 dark:text-blue-500" />
           포상
         </h4>
         <Career items={user_info.awards} />

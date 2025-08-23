@@ -80,7 +80,7 @@ function Skills() {
         {skills.map((skill, index) => (
           <span
             key={index}
-            className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500"
+            className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500"
             data-aos="flip-left"
             data-aos-delay={index * 50}
           >

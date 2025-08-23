@@ -34,7 +34,7 @@ function Project({ project, delay }) {
             return (
               <li className="flex items-start space-x-1 mt-1" key={index}>
                 <svg
-                  className="flex-shrink-0 size-4 text-red-800 dark:text-red-500 mt-1"
+                  className="flex-shrink-0 size-4 text-blue-800 dark:text-blue-500 mt-1"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -59,7 +59,7 @@ function Project({ project, delay }) {
         {project.skills.split(",").map((skill, index) => (
           <span
             key={index}
-            className="inline-flex items-center gap-x-1.5 py-1 px-2 rounded-full text-xs font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500 whitespace-nowrap"
+            className="inline-flex items-center gap-x-1.5 py-1 px-2 rounded-full text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500 whitespace-nowrap"
           >
             {skill}
           </span>
