@@ -23,19 +23,27 @@ function Profile() {
     }
   };
 
+  // 사진 툴팁
+  const photoTooltip = (
+    <span
+      className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm"
+      role="tooltip"
+    >
+      {user_info.profile.tooltip}
+    </span>
+  );
+
   return (
     <section id="profile" className="mx-4 lg:mx-20 px-6 py-44">
       <div className="self-center">
         {/* =========== 작은 사진 =========== */}
-        <div className="hs-tooltip [--placement:right] w-20 hs-tooltip-toggle" data-aos="zoom-in">
-          <img src={user_info.profile.photo} alt="사진" className="rounded-full mb-6 md:hidden" />
-          {/* =========== 작은 사진 - 툴팁 =========== */}
-          <span
-            className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm"
-            role="tooltip"
-          >
-            {user_info.profile.tooltip}
-          </span>
+        <div className="w-20 hs-tooltip [--placement:right] hs-tooltip-toggle" data-aos="zoom-in">
+          <img
+            src={user_info.profile.photo}
+            alt="사진"
+            className="rounded-full mb-6 md:hidden hover:animate-shake origin-center"
+          />
+          {photoTooltip}
         </div>
 
         <div className="flex align-center flex-wrap md:flex-nowrap justify-between">
@@ -49,7 +57,7 @@ function Profile() {
             </div>
 
             {/* =========== 링크 =========== */}
-            <div className="flex gap-2 mt-12" data-aos="fade-up">
+            <div className="flex gap-2 mt-12" data-aos="fade-right">
               <a
                 href="#"
                 onClick={(e) => handleScroll(e, "projects")}
@@ -69,8 +77,16 @@ function Profile() {
           </div>
 
           {/* =========== 큰 사진 =========== */}
-          <div className="hidden md:block self-center" data-aos="fade-left">
-            <img src={user_info.profile.photo} alt="사진" className="rounded-[10%]" />
+          <div
+            className="hidden md:block self-center hs-tooltip [--placement:top] hs-tooltip-toggle"
+            data-aos="fade-left"
+          >
+            <img
+              src={user_info.profile.photo}
+              alt="사진"
+              className="rounded-[10%] hover:animate-shake origin-bottom"
+            />
+            {photoTooltip}
           </div>
         </div>
       </div>
