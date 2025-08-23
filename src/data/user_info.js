@@ -2,7 +2,7 @@ const info = {
   // ============ 프로필 ============
   profile: {
     title: "강 예 은",
-    subtitle: "웹 퍼블리셔 / UI 개발자",
+    subtitle: "Frontend UX Engineer",
     description:
       "UI/UX에 가치를 두고 사용자 경험을 중요시합니다.\n새로운 기술에 대한 지속적인 학습을 추구합니다.",
     photo: "./images/photo.jpeg",

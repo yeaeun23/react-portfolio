@@ -45,13 +45,13 @@ const project = {
       image: "./images/project/connect-wave.png",
       link: "https://yeaeun23.github.io/connect-wave/",
     },
-    {
-      title: "카카오뱅크 인재영입 메인 페이지",
-      period: "2024.11 · 교육(패스트캠퍼스)",
-      skills: "HTML/CSS, JavaScript",
-      image: "./images/project/kakaobank-recruit.png",
-      link: "https://yeaeun23.github.io/kakaobank-recruit/",
-    },
+    // {
+    //   title: "카카오뱅크 인재영입 메인 페이지",
+    //   period: "2024.11 · 교육(패스트캠퍼스)",
+    //   skills: "HTML/CSS, JavaScript",
+    //   image: "./images/project/kakaobank-recruit.png",
+    //   link: "https://yeaeun23.github.io/kakaobank-recruit/",
+    // },
     {
       title: "SW 소개 페이지",
       period: "2017.12 · 개인",
