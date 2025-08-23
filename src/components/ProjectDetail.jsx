@@ -1,7 +1,9 @@
+import { useEffect } from "react";
 import ToggleTheme from "./ToggleTheme.jsx";
 import { AppContext } from "../App.jsx";
 import { useContext } from "react";
 import Footer from "./sections/Footer.jsx";
+import AOS from "aos";
 
 function ProjectDetail() {
   const { theme, switchTheme } = useContext(AppContext);
@@ -11,6 +13,14 @@ function ProjectDetail() {
     { label: "전자전표 화면", prefix: "pc", count: 32 },
     // { label: "팝업 화면", prefix: "pop", count: 10 },
   ];
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: "ease",
+      once: true,
+    });
+  }, []);
 
   return (
     <div className="bg-zinc-100 dark:bg-zinc-900">
@@ -57,6 +67,8 @@ function ProjectDetail() {
                       }.png`}
                       alt="화면"
                       className="border border-gray-300"
+                      data-aos="fade-up"
+                      data-aos-delay={i * 25}
                     />
                   ))}
                 </div>

@@ -3,7 +3,7 @@ function Project({ project, delay }) {
     <a
       target="_blank"
       href={project.link}
-      title="더보기"
+      title="자세히 보기"
       className="group hover:bg-zinc-100 hover:dark:bg-zinc-900 transition-all duration-300 p-6 rounded-xl"
       data-aos="fade-up"
       data-aos-delay={delay}
