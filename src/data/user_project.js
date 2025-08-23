@@ -2,13 +2,15 @@ const project = {
   // ============ 프로젝트 1 ============
   projects: [
     {
-      title: "GS건설 전자전표 시스템",
+      title: "GS건설 차세대 전자전표",
       period: "2025.06 - 재직중 · 스페이드컴퍼니",
       descriptions: [
-        "LG CNS 디자인 시스템을 활용한 UI 개발",
+        "디자인 시스템을 활용한 UI 개발",
+        "디자인 시스템 기능 개선 및 옵션 추가",
         "PC/태블릿/모바일 공통 레이아웃 설계",
+        "IBsheet8 그리드 스타일 커스텀",
       ],
-      skills: "ReactJS, TypeScript, MUI, Design System",
+      skills: "반응형, ReactJS, TypeScript, MUI, Design System, IBsheet8",
       image: "./images/project/electronic.png",
       link: "/react-portfolio/#/project/detail",
     },

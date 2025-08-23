@@ -80,8 +80,8 @@ const info = {
       period: "2025.06.02 - 재직중",
       logo: "./images/logo/spade.svg",
       descriptions: [
-        "LG CNS 디자인 시스템 개선 및 공통 컴포넌트 개발",
-        "GS건설 전자전표 시스템 UI 개발(React.js)",
+        "LG CNS 디자인 시스템 개선 및 공통 레이아웃 설계",
+        "'GS건설 차세대 전자전표' UI 개발(React.js)",
       ],
     },
     {

@@ -9,7 +9,7 @@ function ProjectDetail() {
     { label: "메인 화면", prefix: "main", count: 1 },
     { label: "모바일 화면", prefix: "mobile", count: 8 },
     { label: "전자전표 화면", prefix: "pc", count: 32 },
-    { label: "팝업 화면", prefix: "pop", count: 10 },
+    // { label: "팝업 화면", prefix: "pop", count: 10 },
   ];
 
   return (
@@ -19,8 +19,11 @@ function ProjectDetail() {
 
         <section className="mx-4 lg:mx-20">
           <h4 className="text-4xl font-bold text-center mt-20 dark:text-white">
-            GS건설 전자전표 시스템
+            GS건설 차세대 전자전표
           </h4>
+          <h5 className="text-xl font-bold text-center mt-2 text-gray-500 dark:text-gray-400">
+            (디자인 시스템 / IBsheet8 활용)
+          </h5>
 
           {categories.map((category, index) => {
             return (
