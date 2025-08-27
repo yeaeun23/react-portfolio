@@ -10,6 +10,7 @@ function ProjectDetail() {
   const categories = [
     { label: "메인 화면", prefix: "main", count: 1 },
     { label: "모바일 화면", prefix: "mobile", count: 8 },
+    { label: "차트 화면", prefix: "chart", count: 1 },
     { label: "전자전표 화면", prefix: "pc", count: 32 },
     // { label: "팝업 화면", prefix: "pop", count: 10 },
   ];
@@ -52,11 +53,11 @@ function ProjectDetail() {
 
                 <div
                   className={`gap-6 mt-8 grid grid-cols-1 ${
-                    category.prefix === "main"
-                      ? "sm:grid-cols-1 lg:grid-cols-1"
+                    category.prefix === "pc"
+                      ? "sm:grid-cols-1 lg:grid-cols-2"
                       : category.prefix === "mobile"
                       ? "sm:grid-cols-2 lg:grid-cols-4"
-                      : "sm:grid-cols-1 lg:grid-cols-2"
+                      : "sm:grid-cols-1 lg:grid-cols-1"
                   }`}
                 >
                   {Array.from({ length: category.count }).map((_, i) => (

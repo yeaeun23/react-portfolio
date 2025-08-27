@@ -10,7 +10,7 @@ const project = {
         "PC/태블릿/모바일 공통 레이아웃 설계",
         "IBsheet8 그리드 스타일 커스텀",
       ],
-      skills: "반응형, ReactJS, TypeScript, MUI, Design System, IBsheet8",
+      skills: "반응형, ReactJS, TypeScript, MUI, Design System, IBsheet8, Highcharts",
       image: "./images/project/electronic.png",
       link: "/react-portfolio/#/project/detail",
     },
