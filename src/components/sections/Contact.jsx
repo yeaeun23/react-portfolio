@@ -13,7 +13,7 @@ function Contact() {
           href={user_info.contact.github}
           className="flex text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-200 gap-4 hover:text-zinc-700 transition-all duration-30"
         >
-          <SiGithub className="self-center text-lg text-blue-800 dark:text-blue-500" />
+          <SiGithub className="self-center text-lg text-red-800 dark:text-red-500" />
           <span>{user_info.contact.github}</span>
         </a>
 
@@ -22,7 +22,7 @@ function Contact() {
           href={`mailto:${user_info.contact.email}`}
           className="flex text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-200 gap-4 hover:text-zinc-700 transition-all duration-30"
         >
-          <SiMailboxdotorg className="self-center text-base text-blue-800 dark:text-blue-500" />
+          <SiMailboxdotorg className="self-center text-base text-red-800 dark:text-red-500" />
           <span>{user_info.contact.email}</span>
         </a>
       </div>

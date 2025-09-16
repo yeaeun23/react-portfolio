@@ -45,7 +45,7 @@ function Career({ items }) {
                       return (
                         <li className="flex items-center space-x-2 mt-1" key={index}>
                           <svg
-                            className="flex-shrink-0 size-4 text-blue-800 dark:text-blue-500"
+                            className="flex-shrink-0 size-4 text-red-800 dark:text-red-500"
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
                             height="24"
