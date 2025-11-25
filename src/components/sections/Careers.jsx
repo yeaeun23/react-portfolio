@@ -116,7 +116,7 @@ function Careers() {
         {/* =========== 경력 =========== */}
         <h4 className="text-xl dark:text-white mb-4 font-bold flex gap-2 items-center">
           <FaBuildingUser className="text-2xl text-red-800 dark:text-red-500" />
-          경력 (총 6년 11개월)
+          경력 (총 7년 2개월)
         </h4>
         <Career items={user_info.company} />
 

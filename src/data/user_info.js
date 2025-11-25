@@ -2,7 +2,7 @@ const info = {
   // ============ 프로필 ============
   profile: {
     title: "강 예 은",
-    subtitle: "Frontend UX Engineer",
+    subtitle: "웹 퍼블리싱 · UI 개발자",
     description:
       "UI/UX에 가치를 두고 사용자 경험을 중요시합니다.\n새로운 기술에 대한 지속적인 학습을 추구합니다.",
     photo: "./images/photo.png",
@@ -80,8 +80,9 @@ const info = {
       period: "2025.06.02 - 재직중",
       logo: "./images/logo/spade.svg",
       descriptions: [
-        "LG CNS 디자인 시스템 개선 및 공통 레이아웃 설계",
-        "'GS건설 차세대 전자전표' UI 개발(React.js)",
+        "AMXIS 표준 프레임워크 환경의 UI 개발(React.js, MUI)",
+        "고객 요구사항 기반 디자인 시스템 개선 및 공통 컴포넌트 설계",
+        "'GS건설 차세대 전자전표' 반응형 웹 퍼블리싱(PC·태블릿·모바일)",
       ],
     },
     {
