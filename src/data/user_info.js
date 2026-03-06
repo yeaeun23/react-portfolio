@@ -2,7 +2,7 @@ const info = {
   // ============ 프로필 ============
   profile: {
     title: "강 예 은",
-    subtitle: "웹 퍼블리싱 · UI 개발자",
+    subtitle: "웹 퍼블리셔 · UI 개발자",
     description:
       "UI/UX에 가치를 두고 사용자 경험을 중요시합니다.\n새로운 기술에 대한 지속적인 학습을 추구합니다.",
     photo: "./images/photo.png",
@@ -77,7 +77,7 @@ const info = {
     {
       title: "스페이드컴퍼니 (LG CNS 협력사)",
       subtitle: "프리랜서 / 개발팀",
-      period: "2025.06.02 - 재직중",
+      period: "2025.06.02 - 2026.01.31 (8개월)",
       logo: "./images/logo/spade.svg",
       descriptions: [
         "AMXIS 표준 프레임워크 환경의 UI 개발(React.js, MUI)",

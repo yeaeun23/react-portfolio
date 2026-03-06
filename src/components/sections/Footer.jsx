@@ -12,7 +12,7 @@ function Footer() {
     <footer className="p-4 text-center md:flex justify-between">
       {/* =========== COPYRIGHT =========== */}
       <p className="text-zinc-600 self-center mt-2 md:mt-0 dark:text-zinc-300 text-sm text-center font-light">
-        © 2025 Yeeun Kang. All Rights Reserved
+        © 2026 Yeeun Kang. All Rights Reserved.
       </p>
 
       {/* =========== TOP 버튼 =========== */}
