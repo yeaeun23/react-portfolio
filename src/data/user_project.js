@@ -3,7 +3,7 @@ const project = {
   projects: [
     {
       title: "GS건설 차세대 전자전표",
-      period: "2025.06 - 재직중 · 스페이드컴퍼니",
+      period: "2025.06 - 2026.01 (8개월) · LG CNS",
       descriptions: [
         "디자인 시스템을 활용한 UI 개발",
         "디자인 시스템 기능 개선 및 옵션 추가",

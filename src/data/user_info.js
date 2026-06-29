@@ -75,10 +75,21 @@ const info = {
   // ============ 경력 ============
   company: [
     {
+      title: "소프트원 (LG CNS 협력사)",
+      subtitle: "프리랜서",
+      period: "2026.04.01 - 진행중",
+      logo: "./images/logo/lgcns.jpeg",
+      descriptions: [
+        "AMXIS 표준 프레임워크 환경의 UI 개발(React.js, MUI)",
+        "고객 요구사항 기반 디자인 시스템 개선 및 공통 컴포넌트 설계",
+        "'GS건설 주택사업관리시스템' 반응형 웹 퍼블리싱(PC·태블릿·모바일)",
+      ],
+    },
+    {
       title: "스페이드컴퍼니 (LG CNS 협력사)",
       subtitle: "프리랜서 / 개발팀",
       period: "2025.06.02 - 2026.01.31 (8개월)",
-      logo: "./images/logo/spade.svg",
+      logo: "./images/logo/lgcns.jpeg",
       descriptions: [
         "AMXIS 표준 프레임워크 환경의 UI 개발(React.js, MUI)",
         "고객 요구사항 기반 디자인 시스템 개선 및 공통 컴포넌트 설계",
