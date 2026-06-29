@@ -10,7 +10,7 @@ export const AppContext = createContext();
 
 function App() {
   const savedTheme = localStorage.getItem("theme");
-  const [theme, setTheme] = useState(savedTheme || "dark");
+  const [theme, setTheme] = useState(savedTheme || "light");
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", theme === "dark");
