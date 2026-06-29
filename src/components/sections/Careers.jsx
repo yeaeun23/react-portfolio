@@ -109,6 +109,13 @@ function Careers() {
           교육
         </h4>
         <Career items={user_info.educations} />
+
+        {/* =========== 포상 =========== */}
+        <h4 className="text-xl dark:text-white mt-6 mb-4 font-bold flex gap-2 items-center">
+          <FaAward className="text-2xl text-red-800 dark:text-red-500" />
+          포상
+        </h4>
+        <Career items={user_info.awards} />
       </div>
 
       {/* =========== 오른쪽 영역 =========== */}
@@ -119,13 +126,6 @@ function Careers() {
           경력 (총 7년 8개월)
         </h4>
         <Career items={user_info.company} />
-
-        {/* =========== 포상 =========== */}
-        <h4 className="text-xl dark:text-white mt-6 mb-4 font-bold flex gap-2 items-center">
-          <FaAward className="text-2xl text-red-800 dark:text-red-500" />
-          포상
-        </h4>
-        <Career items={user_info.awards} />
       </div>
     </section>
   );
