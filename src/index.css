@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: "Pretendard Variable", "Pretendard", Arial, "Malgun Gothic", sans-serif;
+  font-family: "Pretendard Variable", "Pretendard", Arial, sans-serif;
   letter-spacing: -0.2px;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
